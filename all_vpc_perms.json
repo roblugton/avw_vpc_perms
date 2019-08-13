@@ -1,6 +1,6 @@
 {
-  "SID": "AllNetworkModificationActions"
-  "Effect": "Deny"
+  "SID": "AllNetworkModificationActions",
+  "Effect": "Deny",
 
   "Action": [
     // ec2:*ByoipCidr*
@@ -251,7 +251,7 @@
     "ec2:EnableVgwRoutePropagation",
 
     // on it's own
-    "ec2:RestoreAddressToClassic",
+    "ec2:RestoreAddressToClassic"
   ],
   "Resource": ["*"]
 }
